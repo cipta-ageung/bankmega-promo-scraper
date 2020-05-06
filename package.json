@@ -1,0 +1,28 @@
+{
+  "name": "bankmega-promo-scraper",
+  "version": "1.0.0",
+  "description": "Scrape credit card promotions from Bank Mega website",
+  "main": "solution.js",
+  "scripts": {
+    "scrape": "node solution.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipta-ageung/bankmega-promo-scraper.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "ciptaageung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cipta-ageung/bankmega-promo-scraper/issues"
+  },
+  "homepage": "https://github.com/cipta-ageung/bankmega-promo-scraper#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "nightmare": "^3.0.2"
+  }
+}
